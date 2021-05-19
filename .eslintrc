@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react",
+    "react-app",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "max-len": 0,
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "jsxSingleQuote": true,
+        "semi": false,
+        "printWidth": 100,
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "plugins": [
+    "jsx-a11y",
+    "prettier"
+  ]
+}
